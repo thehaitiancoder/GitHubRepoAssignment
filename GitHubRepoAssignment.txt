@@ -1,0 +1,30 @@
+Assignment completed on a windows machine
+
+1. Create a New repository on GitHub
+	a. Log In to github.com
+	b. click on the + sign in the upper right corner
+	3. Click on "New Repository"
+	4. Add the repository name and click on create
+
+2. Open terminal and create a repository
+	Start > Seach > cmd	Open the command line
+	cd Desktop		Navigate to the desktop
+	md GitHubRepoAssignment	Create the folder to host the repository
+	cd GitHubRepoAssignment	Navigate to the folder
+	
+3. Itinitialize the git repository
+	git init
+
+4. Make a readme.md in the folder
+	copy NUL readme.md	Create an empty readme.md file
+	start notepad readme.md	Start notepad then modify the file
+
+5. Check the status of the repository, add the readme.md file to the stagging area then commit and push the changes  to GitHub.
+	git status		Check the status of the repository
+	git add readme.md	Add the readme.md file to the repository
+	git commit -m "blabla"	Commit the changes of the file to the repository with comments
+	git remote add origin <github address>		Add a GitHub repository
+	git push -u origin master			Push the changes to GitHub
+
+7. Verify the changes to the repository on GitHub
+	Refresh the repository page
